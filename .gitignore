@@ -1,0 +1,87 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IPython history
+.ipython/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.pytest_cache/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+
+# matplotlib cache
+.mpl_cache/
+
+# Streamlit media/cache
+.streamlit/
+
+# Compiled C extensions
+*.so
+
+# log files
+*.log
+
+# Do NOT ignore dataset by default (uncomment if dataset is large and should not be pushed)
+# dataset/
+
+# Notebook outputs (optional)
+# .ipynb_checkpoints/
+
+# Ignore pycache in dataset (if any)
+dataset/**/__pycache__/
+
+# Ignore pip wheel cache
+pip-wheel-metadata/
+
+# Ignore Thumbnails
+*.png
+*.jpg
+*.jpeg
+
+# Keep README, requirements, and source files tracked
+!requirements.txt
+!README.md
+!*.py
